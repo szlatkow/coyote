@@ -1,0 +1,36 @@
+{
+	"name": " Coyote",
+	"settings": {
+		"workbench.colorTheme": "Default Dark+",
+		"terminal.integrated.defaultProfile.linux": "pwsh"
+	},
+	"extensions": [
+		// VS Code specific
+		"coenraads.bracket-pair-colorizer",
+		"vscode-icons-team.vscode-icons",
+		"editorconfig.editorconfig",
+		// GitHub specific
+		"eamodio.gitlens",
+		"cschleiden.vscode-github-actions",
+		"redhat.vscode-yaml",
+		"bierner.markdown-preview-github-styles",
+		"ban.spellright",
+		// .NET specific
+		"ms-dotnettools.csharp",
+		"VisualStudioExptTeam.vscodeintellicode",
+		"ms-vscode.powershell",
+		"jmrog.vscode-nuget-package-manager",
+		// JS/TS specific
+		"dbaeumer.vscode-eslint",
+		"ms-vscode.vscode-typescript-next",
+		"ecmel.vscode-html-css",
+    // C/CPP specific
+    "ms-vscode.cpptools"
+	],
+	"postCreateCommand": "",
+	"build": {
+		"dockerfile": "Dockerfile"
+	}
+}
+
+// Built with ❤ by [Pipeline Foundation](https://pipeline.foundation)
