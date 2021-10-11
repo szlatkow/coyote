@@ -29,11 +29,11 @@ jobs:
         run: |
           docker build --no-cache \
           --progress=plain \
-          --tag $DOCKER_USERNAME/PROJECTNAME-devcontainer:$IMAGE_TAG \
+          --tag $DOCKER_USERNAME/coyote-devcontainer:$IMAGE_TAG \
           --file docker-images/devcontainer/Dockerfile .
 
       - name: Push image to Docker Hub
         run: |
-          docker push $DOCKER_USERNAME/PROJECTNAME-devcontainer:$IMAGE_TAG
+          docker push $DOCKER_USERNAME/coyote-devcontainer:$IMAGE_TAG
 
 # Built with ❤ by [Pipeline Foundation](https://pipeline.foundation)
