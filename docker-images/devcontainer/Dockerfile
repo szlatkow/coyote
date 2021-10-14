@@ -30,10 +30,10 @@ RUN apt update; \
 	apt install -y dotnet-sdk-3.1; \
 	# install PowerShell
 	apt update; \
-	apt install -y powershell;
-	# # add dev non-root user
-	# useradd --shell /bin/bash --create-home devcontainer;
+	apt install -y powershell; \
+	# add dev non-root user
+	useradd --shell /bin/bash --create-home devcontainer;
 
-# USER devcontainer
+USER devcontainer
 
 # Built with ❤ by [Pipeline Foundation](https://pipeline.foundation)
