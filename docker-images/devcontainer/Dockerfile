@@ -32,8 +32,8 @@ RUN apt update; \
 	apt update; \
 	apt install -y powershell; \
 	# add dev non-root user
-	useradd --shell /bin/bash --create-home devcontainer;
+	useradd --shell /bin/bash --create-home vscode;
 
-USER devcontainer
+USER vscode
 
 # Built with ❤ by [Pipeline Foundation](https://pipeline.foundation)
