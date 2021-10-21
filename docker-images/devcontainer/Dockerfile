@@ -32,8 +32,7 @@ RUN apt update; \
 	apt update; \
 	apt install -y powershell; \
 	# add dev non-root user
-	useradd --shell /bin/bash --create-home devcontainer; \
-	chmod +rwx /workspaces;
+	useradd --shell /bin/bash --create-home devcontainer;
 
 USER devcontainer
 
