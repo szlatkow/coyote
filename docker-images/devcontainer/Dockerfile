@@ -33,7 +33,7 @@ RUN apt update; \
 	apt install -y powershell; \
 	# add dev non-root user
 	useradd --shell /bin/bash --create-home devcontainer; \
-	chmod +rwx /workspaces/repo-coyote@szlatkow;
+	chmod +rwx /workspaces;
 
 USER devcontainer
 
